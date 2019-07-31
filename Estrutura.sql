@@ -1,4 +1,7 @@
-﻿CREATE TABLE animais (
+﻿DROP TABLE IF EXISTS habilidades;
+DROP TABLE IF EXISTS animais;
+
+CREATE TABLE animais (
 	id INT PRIMARY KEY IDENTITY(1,1),
 	nome VARCHAR(100),
 	extinto BIT
@@ -11,8 +14,8 @@ ALTER TABLE animais ADD peso DECIMAL(4,2) DEFAULT 0.0;
 UPDATE animais SET peso = 0;
 
 --Apagar uma coluna
-ALTER TABLE animais DROP CONSTRAINT DF__animais__peso__239E4DCF;
-ALTER TABLE animais DROP COLUMN peso;
+--ALTER TABLE animais DROP CONSTRAINT DF__animais__peso__239E4DCF;
+--ALTER TABLE animais DROP COLUMN peso;
 
 CREATE TABLE habilidades(
 	id INT PRIMARY KEY IDENTITY(1,1),

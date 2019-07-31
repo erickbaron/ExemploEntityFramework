@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo00", "Exemplo00\Exemplo00.csproj", "{18A9B242-6FD9-4F55-A51B-E84ABE99CC6E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D8B14D0F-7F9F-4F6E-8A7D-E8419F363EF4}"
+	ProjectSection(SolutionItems) = preProject
+		Estrutura.sql = Estrutura.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
